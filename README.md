@@ -17,7 +17,6 @@ A real-time patient vitals monitoring system using **Node.js**, **React**, **Pos
 
 ### 1. Install dependencies
 
-```bash
 cd backend
 npm install
 
@@ -58,7 +57,7 @@ WebSocket is available at: ws://localhost:4000
 
 
 
-💻 Frontend Setup (/frontend)
+## 💻 Frontend Setup (/frontend)
 
 ### 1. Install dependencies
 
