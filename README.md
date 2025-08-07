@@ -6,10 +6,11 @@ A real-time patient vitals monitoring system using **Node.js**, **React**, **Pos
 
 ## 📁 Project Structure
 
+```bash
 /project-root
 ├── backend/ # Node.js + Express + Sequelize API
 ├── frontend/ # React + Chart.js + WebSocket client
-
+```
 
 ---
 
@@ -42,18 +43,17 @@ JWT_SECRET=secret
 ### 3. Run migrations or sync models
 
 Depending on your setup:
-
+```bash
 # If using migrations
 npx sequelize-cli db:migrate
 
 # OR if using sync()
 npm run sync-db
-
+```
 
 
 ### 4. Start backend server
 
-4. Start backend server
 ```bash
 The server will start on: http://localhost:4000
 WebSocket is available at: ws://localhost:4000
@@ -84,19 +84,20 @@ Open your browser at: http://localhost:5173 (or whatever Vite prints)
 
 
 🔍 Features:
-
+```bash
 📡 Live WebSocket vitals stream
 📊 Real-time charting per patient
 📋 Vitals table with latest values
 🚨 Toasts for abnormal vitals detection
 🔐 JWT-based auth
-
+```
 
 ---
 
 
 🧪 Testing the Setup
-
+```bash
 * Backend should print Server running on http://localhost:4000
 
 * Remote-Office - Healthcare Monitoring API.postman_collection.json can be imported in Postman, where all routes with sample data is provided as examples.
+```
