@@ -17,14 +17,16 @@ A real-time patient vitals monitoring system using **Node.js**, **React**, **Pos
 
 ### 1. Install dependencies
 
+```bash
 cd backend
 npm install
-
+```
 
 ### 2. Create .env file
 
 Create a .env file in the /backend directory:
 
+```bash
 DB_HOST=localhost
 DB_USER=postgres
 DB_PASSWORD=password
@@ -32,6 +34,7 @@ DB_NAME=PatientMonitoring
 DB_PORT=54351
 
 JWT_SECRET=secret
+```
 
 🛑 Ensure PostgreSQL is running and a database named PatientMonitoring exists (or will be created via Sequelize).
 
@@ -51,32 +54,32 @@ npm run sync-db
 ### 4. Start backend server
 
 4. Start backend server
-
+```bash
 The server will start on: http://localhost:4000
 WebSocket is available at: ws://localhost:4000
-
+```
 
 
 ## 💻 Frontend Setup (/frontend)
 
 ### 1. Install dependencies
-
+```bash
 cd frontend
 npm install
-
+```
 
 ### 2. Create .env file
 
 In the /frontend directory:
-
+```bash
 VITE_API_URL=http://localhost:4000/api
 VITE_WS_URL=ws://localhost:4000
-
+```
 
 ### 3. Start React app
-
+```bash
 npm run dev
-
+```
 Open your browser at: http://localhost:5173 (or whatever Vite prints)
 
 
